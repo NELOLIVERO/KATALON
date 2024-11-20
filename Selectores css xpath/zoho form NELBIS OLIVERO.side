@@ -1,0 +1,267 @@
+{
+  "id": "e6bd6318-ba64-47da-a646-e63d4dfc81b9",
+  "version": "2.0",
+  "name": "zoho form",
+  "url": "https://www.zoho.com/es-xl/forms/ ",
+  "tests": [{
+    "id": "91dd8937-dcb6-4443-836b-59b07c19733c",
+    "name": "validar formulario",
+    "commands": [{
+      "id": "3aecf2df-4225-4743-9693-585476cece0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.zoho.com/es-xl/forms/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11b00322-897c-403a-a2a9-1478628ccad5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb142ae5-c102-4983-88f9-8ef0889e1295",
+      "comment": "",
+      "command": "click",
+      "target": "id=portalcompanyname",
+      "targets": [
+        ["id=portalcompanyname", "id"],
+        ["name=r_account.account_name", "name"],
+        ["css=#portalcompanyname", "css:finder"],
+        ["xpath=//input[@id='portalcompanyname']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4360921c-5adb-4f60-9378-bafabb758dc4",
+      "comment": "",
+      "command": "type",
+      "target": "id=portalcompanyname",
+      "targets": [
+        ["id=portalcompanyname", "id"],
+        ["name=r_account.account_name", "name"],
+        ["css=#portalcompanyname", "css:finder"],
+        ["xpath=//input[@id='portalcompanyname']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "coco loco"
+    }, {
+      "id": "e45f4cac-aa02-4a3a-86b4-51d3f7116b09",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db78b2d3-594f-4580-be0d-6be16d576a73",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "cocoloco@ompany.com"
+    }, {
+      "id": "66d96f00-326e-46bc-b85b-1bef8046bfb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf607dd-ff76-4300-8ba7-698af4342e9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "123456987"
+    }, {
+      "id": "fce83b94-3fc5-46e4-9132-92a5013782d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=r_address/1.phone", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9329f56d-2df9-461a-98c4-5cb14b361de4",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2753f795-a738-4963-999c-cd366c6f64d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "123holA"
+    }, {
+      "id": "ddb44fda-4f0a-48f3-8e42-0a4d91e7f434",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zpassword-show",
+      "targets": [
+        ["css=.zpassword-show", "css:finder"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2773990f-3d81-4f43-8db0-97af4f079c5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5dfe911-4c96-4c91-8a3b-5dd41308145c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7abd92fb-34ce-44c0-b1cd-08d01cb2e955",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8449e5-fe5f-42f2-a80b-2b40107ede37",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "123COCOloco*"
+    }, {
+      "id": "7aec7ada-fc67-4a60-904c-b9655f838cb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=r_address/1.phone", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "515ec549-3f4a-490c-9c83-33b8db5985eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=r_address/1.phone", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "123456977"
+    }, {
+      "id": "83830dac-c3a6-40f1-8377-19eeb5380c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.za-tos-container > .sign_agree",
+      "targets": [
+        ["css=.za-tos-container > .sign_agree", "css:finder"],
+        ["xpath=//form[@id='signupform']/div/div[8]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82069ff4-e7bf-4373-85ca-e59b47031e5b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["91dd8937-dcb6-4443-836b-59b07c19733c"]
+  }],
+  "urls": ["https://www.zoho.com/es-xl/forms/"],
+  "plugins": []
+}

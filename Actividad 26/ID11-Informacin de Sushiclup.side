@@ -1,0 +1,82 @@
+{
+  "id": "bd14bff3-dcba-443f-b67c-6d8ffcaf7559",
+  "version": "2.0",
+  "name": "TC11-Información de Sushiclup",
+  "url": "https://www.sushiclub.com.ar/",
+  "tests": [{
+    "id": "7eb13346-46c3-4894-a63a-0d5073ebd834",
+    "name": "TC11-Información de Sushiclup",
+    "commands": [{
+      "id": "aea22dd2-eb00-4676-befd-9c6dcc07fb05",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1ddd4ce-7627-4ead-92ce-0b0fc338ecd9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6702cb87-e0d7-4648-9aa9-d4da42c9494d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b67a29c-3ecc-4be1-a4ab-57b549c55524",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .firstBot > a",
+      "targets": [
+        ["css=#menuMobile > .firstBot > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'conocenos')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'conocenos.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "036a0c73-ca1a-435b-a0fa-bcc8a6347bb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navslider > span:nth-child(1)",
+      "targets": [
+        ["css=#navslider > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='navslider']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'•')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa64f66-53e0-416c-a4cc-bb75ea763234",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cycle-pager-active",
+      "targets": [
+        ["css=.cycle-pager-active", "css:finder"],
+        ["xpath=//div[@id='navslider']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7dcee781-7c77-46f0-b973-121e83a8ae48",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7eb13346-46c3-4894-a63a-0d5073ebd834"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

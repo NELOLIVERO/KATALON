@@ -1,0 +1,107 @@
+{
+  "id": "bad5feba-4a58-4398-96ff-4b4e38154317",
+  "version": "2.0",
+  "name": "TC07-Ingresar a pestaña tarjeta de regalo",
+  "url": "https://www.sushiclub.com.ar",
+  "tests": [{
+    "id": "26465e64-487e-4de0-99a6-3f73b6202751",
+    "name": "TC07-Ingresar a pestaña tarjeta de regalo",
+    "commands": [{
+      "id": "73cfe7ee-0628-4ebd-b849-106b2ff86292",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07de7247-baed-4e6e-b8f3-6f0f1cb62166",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a745aa1-5ed2-4c0b-9a7b-0e8e9b38f35c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fce28ecd-74f3-4d1d-9300-e8b45a791eb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(12) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(12) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SushiGift')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[12]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'shop_sushigift.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[12]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3d6e4da-0fcd-4ecb-9290-a497e7299490",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(12) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "790ff721-6c03-432d-8e05-71d28830becf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Consultar estado",
+      "targets": [
+        ["linkText=Consultar estado", "linkText"],
+        ["css=.col-md-6:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Consultar estado')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'shop_consultar_sushigift.php')]", "xpath:href"],
+        ["xpath=//div[2]/span/center/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Consultar estado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cfc46a-6dbe-4ed0-916c-b488ccf1e41f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(12) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(12) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SushiGift')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[12]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'shop_sushigift.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[12]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eea68163-e3ff-46da-a456-b2c7f22a6617",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Activar PIN",
+      "targets": [
+        ["linkText=Activar PIN", "linkText"],
+        ["css=.col-md-6:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Activar PIN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'shop_activar_pin.php')]", "xpath:href"],
+        ["xpath=//center/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Activar PIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c4f2f883-3bcf-425b-91fb-a8e9d460fdac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26465e64-487e-4de0-99a6-3f73b6202751"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

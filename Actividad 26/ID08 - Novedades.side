@@ -1,0 +1,221 @@
+{
+  "id": "71b60682-b426-42ba-96c1-8a2f59fda74a",
+  "version": "2.0",
+  "name": "Sushi Club",
+  "url": "https://www.sushiclub.com.ar",
+  "tests": [{
+    "id": "db598d7a-7a5e-43a8-9cf0-d89e2a821a58",
+    "name": "Novedades",
+    "commands": [{
+      "id": "769dced5-fefe-40b6-8ec2-c71ee5924452",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "947bf09e-a17b-46fd-8fd9-2b715b428f10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7efabc21-25ad-4a81-81c6-a5052bf3f85e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a3711f-e5c7-4060-9c23-81668c594c67",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(11) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(11) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Novedades')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'novedades.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "213e38e5-303f-4de6-b834-f1da463a39ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) .btn-small",
+      "targets": [
+        ["css=.row:nth-child(1) .btn-small", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.sushiclub.com.ar/shop_init.php')])[4]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'VER MÁS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccaab91b-174b-4d58-bc1f-9f989f0519e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(11) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(11) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Novedades')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'novedades.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95baaab3-5518-4a93-bc3c-44aa2613ff91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .btn-small",
+      "targets": [
+        ["css=.row:nth-child(2) .btn-small", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://sushiclub.com.uy/shop_init.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098f24e1-9ac8-4eb0-a8b8-c3d7802eda6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(10) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Novedades')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'novedades.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057cee22-ef7f-424f-a85e-62cc213202d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .btn-small",
+      "targets": [
+        ["css=.row:nth-child(2) .btn-small", "css:finder"],
+        ["xpath=(//a[contains(@href, 'novedades_ficha.php?id=81')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2327e382-49da-49d2-aeb8-5bb8cdb64515",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "792fa74f-ef8e-4b1f-97c7-cec189b2801d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-large-play-button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de7bf656-fd80-4404-ac9b-9230ec3cbc29",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "279c640f-b656-489f-a6d4-9c8ac525c030",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(10) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Novedades')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'novedades.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f77a50f-5686-4e8c-8ecc-145dee73f28b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,32)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3e4d7d0-5258-4c0f-91b4-c11f4f54bcf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) .btn-small",
+      "targets": [
+        ["css=.row:nth-child(4) .btn-small", "css:finder"],
+        ["xpath=(//a[contains(@href, 'novedades_ficha.php?id=63')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c3ed4b-063e-4732-9a45-774c5246aec3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "a00f365b-83af-40b4-9f3b-4c46d2848585",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-cued-thumbnail-overlay-image",
+      "targets": [
+        ["css=.ytp-cued-thumbnail-overlay-image", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b58af4b-d4cd-44d7-9c20-9d1115ddf2d8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1eb1121-d7cc-4356-ac70-3d01f94f32e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(10) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Novedades')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'novedades.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d3666e6-f77b-4aa1-a6a6-b35742c73bbe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["db598d7a-7a5e-43a8-9cf0-d89e2a821a58"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

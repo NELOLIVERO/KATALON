@@ -1,0 +1,161 @@
+{
+  "id": "95275078-06db-4b5e-bd1e-eaa98c0e9454",
+  "version": "2.0",
+  "name": "SushiClub",
+  "url": "https://www.sushiclub.com.ar/index.php",
+  "tests": [{
+    "id": "c262a685-93db-42f5-bbc3-f2cc1b6fc62c",
+    "name": "TC04-Verificar nombre del Platillo y Precio",
+    "commands": [{
+      "id": "78cf9542-770f-474e-88f4-85ce03afb834",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b48f58b3-d92a-4ed5-b05c-61aa5e1ae6c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dd254aa-95cd-4445-84d7-0245ace13a51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d425afa-6940-4ab3-959b-298ab8697eec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e1f19f-9428-4468-9878-09a4c9009a10",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(6) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Carta RESTÓ')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7ba49d-f789-4567-a226-ba6322e25dde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CABA",
+      "targets": [
+        ["linkText=CABA", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CABA')])[5]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'carta.php?provincia=2&tipo=salon')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b42bfb6a-b848-4f55-943b-7f8a93450511",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CABA",
+      "targets": [
+        ["linkText=CABA", "linkText"],
+        ["css=.menuIzq > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CABA')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac2b15a3-f03e-4ea5-9719-76738933364a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Caballito",
+      "targets": [
+        ["linkText=Caballito", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Caballito')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=14&tipo=salon')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Caballito')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d81bd3a8-5734-449f-95b5-751965e671f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,239)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79c67b14-e4ca-4829-8edb-4068a62fada6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .title-shop1",
+      "targets": [
+        ["css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .title-shop1", "css:finder"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Experiencia para Compartir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd0dc47e-43e4-4692-8447-4125fc630091",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26b8e309-a668-4ab4-bc87-c30d37feea23",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .title-shop1",
+      "targets": [
+        ["css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .title-shop1", "css:finder"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Experiencia para Compartir')]", "xpath:innerText"]
+      ],
+      "value": "Experiencia para Compartir"
+    }, {
+      "id": "efdf185d-e044-4a75-8836-39a13b68a42c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .price",
+      "targets": [
+        ["css=.listadoShop:nth-child(3) > .productoShop:nth-child(4) .price", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": "$68700"
+    }]
+  }],
+  "suites": [{
+    "id": "c6666aba-2dc9-4267-a350-d17aa487f599",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c262a685-93db-42f5-bbc3-f2cc1b6fc62c"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/index.php"],
+  "plugins": []
+}

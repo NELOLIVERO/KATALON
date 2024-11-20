@@ -1,0 +1,108 @@
+{
+  "id": "61397345-b03e-4e07-a13f-e6db23834c43",
+  "version": "2.0",
+  "name": "SushiClub",
+  "url": "https://www.sushiclub.com.ar/",
+  "tests": [{
+    "id": "59063c0f-99de-414b-a148-2de3d1a8e19a",
+    "name": "Validar Contacto",
+    "commands": [{
+      "id": "3bd4bf85-360c-44f9-ab37-9fe9b3b52f7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9ed4f49-ec2c-4355-8a94-3dac7ccbc0e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e743e7a5-df7d-4ee7-a5ad-ca8f8afb46d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970dad17-8244-4716-b9f0-d725820fd7ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contacto",
+      "targets": [
+        ["linkText=Contacto", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contacto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'contacto.php?tipo=contacto')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contacto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2055d7b1-5204-4008-9216-4878af5c9703",
+      "comment": "",
+      "command": "click",
+      "target": "id=motivo",
+      "targets": [
+        ["id=motivo", "id"],
+        ["css=#motivo", "css:finder"],
+        ["xpath=//select[@id='motivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bc02f5-13a3-42d1-98ec-7d93548cfa2a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='contacto']/h5/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'click aquí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf48d4b-4b7a-4232-8d06-b9823ddbe0f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='contacto']/h5/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'click aquí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "780b3783-6234-4d31-9701-8ed033e3d417",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#action-button > .\\_advp",
+      "targets": [
+        ["css=#action-button > .\\_advp", "css:finder"],
+        ["xpath=//a[@id='action-button']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ir al chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ee111606-7af1-48ec-8377-5d9c894272b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

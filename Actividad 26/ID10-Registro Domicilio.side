@@ -1,0 +1,343 @@
+{
+  "id": "f8406ff2-236f-4b43-949d-f22717db6b38",
+  "version": "2.0",
+  "name": "Act 26 - SushiClub",
+  "url": "https://www.sushiclub.com.ar/",
+  "tests": [{
+    "id": "daa2d410-f256-44fc-a3b4-5ed26d1e7785",
+    "name": "TC10- Validar Registro Domiciliario",
+    "commands": [{
+      "id": "d23d77bf-f3d2-49cc-a6bc-ba6fda223dea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "719ce858-7d52-48c4-b5bb-478954c263f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9eb2c891-a766-48da-a6ae-86babcd89be6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "401ad1a8-98a8-4b3f-a95f-4ef9404f9554",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d80abcc-26d4-41a1-9b07-d7902d4e71ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .noMobile > a",
+      "targets": [
+        ["css=#menuMobile > .noMobile > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pedí online')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'shop_init.php')])[4]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2260",
+      "windowTimeout": 2000
+    }, {
+      "id": "1c85d440-1a76-408b-a5e6-0d160ab85c4c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2260}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3638f3e0-729c-42ff-a613-a8fec777ffa5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.imgBannerShop",
+      "targets": [
+        ["css=.imgBannerShop", "css:finder"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8933a871-36f1-4b59-8475-227982c80cd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=tipoDelivery",
+      "targets": [
+        ["id=tipoDelivery", "id"],
+        ["css=#tipoDelivery", "css:finder"],
+        ["xpath=//button[@id='tipoDelivery']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delivery (hasta 20% off)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc9c83c8-9a95-467f-87ad-5537ac0b688d",
+      "comment": "",
+      "command": "click",
+      "target": "id=dateInit",
+      "targets": [
+        ["id=dateInit", "id"],
+        ["css=#dateInit", "css:finder"],
+        ["xpath=//button[@id='dateInit']", "xpath:attributes"],
+        ["xpath=//center/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hoy 16/10/2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a582f49-3f1c-48ec-9feb-03695366a894",
+      "comment": "",
+      "command": "click",
+      "target": "id=turnoNoche",
+      "targets": [
+        ["id=turnoNoche", "id"],
+        ["css=#turnoNoche", "css:finder"],
+        ["xpath=//button[@id='turnoNoche']", "xpath:attributes"],
+        ["xpath=//div[3]/span/center/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Noche')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b8475a-2e2f-4994-abe1-c92cde9ea1e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnDorado",
+      "targets": [
+        ["css=.btnDorado", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/center/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b53e9fe-c605-44f9-af9a-a1a34de4bae7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nuevo usuario",
+      "targets": [
+        ["linkText=Nuevo usuario", "linkText"],
+        ["css=.botonBox:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Nuevo usuario')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'shop_new_dir.php')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nuevo usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0393824-5da9-4ad6-95f2-826ce52ad3cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=tipoDeDomicilio",
+      "targets": [
+        ["id=tipoDeDomicilio", "id"],
+        ["name=tipo_domicilio", "name"],
+        ["css=#tipoDeDomicilio", "css:finder"],
+        ["xpath=//select[@id='tipoDeDomicilio']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39cb52d8-f7e6-4f4a-8bb1-8b24e8d03fad",
+      "comment": "",
+      "command": "select",
+      "target": "id=tipoDeDomicilio",
+      "targets": [],
+      "value": "label=Casa"
+    }, {
+      "id": "7d9340c1-d070-4291-ab9d-ae9fe4004078",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinciaDir",
+      "targets": [
+        ["id=provinciaDir", "id"],
+        ["name=provincia", "name"],
+        ["css=#provinciaDir", "css:finder"],
+        ["xpath=//select[@id='provinciaDir']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03b8471a-7ef8-4628-9073-e34466dedc66",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinciaDir",
+      "targets": [],
+      "value": "label=Gran Buenos Aires"
+    }, {
+      "id": "14182886-77bf-4c09-8d75-7747ba900029",
+      "comment": "",
+      "command": "click",
+      "target": "id=localidadDir",
+      "targets": [
+        ["id=localidadDir", "id"],
+        ["name=localidad", "name"],
+        ["css=#localidadDir", "css:finder"],
+        ["xpath=//input[@id='localidadDir']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d3f9b1c-0b1e-4059-9689-8091b43c2bcc",
+      "comment": "",
+      "command": "type",
+      "target": "id=localidadDir",
+      "targets": [
+        ["id=localidadDir", "id"],
+        ["name=localidad", "name"],
+        ["css=#localidadDir", "css:finder"],
+        ["xpath=//input[@id='localidadDir']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Buenos aires"
+    }, {
+      "id": "c650ab40-df72-4255-9a39-129a62f42e3b",
+      "comment": "",
+      "command": "type",
+      "target": "name=calle",
+      "targets": [
+        ["name=calle", "name"],
+        ["css=.form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//input[@name='calle']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Bartolomé Mitre 1704"
+    }, {
+      "id": "3e0e1880-3dc3-4f67-95f3-cf3d3e6ec730",
+      "comment": "",
+      "command": "click",
+      "target": "name=calle",
+      "targets": [
+        ["name=calle", "name"],
+        ["css=.form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//input[@name='calle']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5162a20f-430b-4ff2-94d2-2857ce68cd66",
+      "comment": "",
+      "command": "type",
+      "target": "name=calle",
+      "targets": [
+        ["name=calle", "name"],
+        ["css=.form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//input[@name='calle']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Bartolomé Mitre 1705"
+    }, {
+      "id": "5706d9e3-d548-45ce-97db-eae86de9d327",
+      "comment": "",
+      "command": "click",
+      "target": "name=altura",
+      "targets": [
+        ["name=altura", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='altura']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7716475c-3174-4b45-a866-e50254383e64",
+      "comment": "",
+      "command": "type",
+      "target": "name=altura",
+      "targets": [
+        ["name=altura", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='altura']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "0c2f9697-ff4f-4649-9f0c-02d9ffb90e6e",
+      "comment": "",
+      "command": "click",
+      "target": "name=altura",
+      "targets": [
+        ["name=altura", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='altura']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb729a3-c34a-4bb4-a4a0-79ae24c1d20c",
+      "comment": "",
+      "command": "type",
+      "target": "name=altura",
+      "targets": [
+        ["name=altura", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='altura']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "-9"
+    }, {
+      "id": "8a3e5e02-7b0c-4250-8dbe-f1eefb23b7bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dorado",
+      "targets": [
+        ["css=.btn-dorado", "css:finder"],
+        ["xpath=//input[@value='Continuar']", "xpath:attributes"],
+        ["xpath=//form[@id='formDir']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf1ae27-2735-4b46-8667-ecf3a941e36f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirmar",
+      "targets": [
+        ["linkText=Confirmar", "linkText"],
+        ["css=.btnConfirmarDirH", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirmar')]", "xpath:link"],
+        ["xpath=//a[@onclick='shop_mapearAll_submit()']", "xpath:attributes"],
+        ["xpath=//div[@id='JSbuttonsRow']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//div/center/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirmar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d4e478bd-bcab-45c6-a332-10ba9fe93ad2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["daa2d410-f256-44fc-a3b4-5ed26d1e7785"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

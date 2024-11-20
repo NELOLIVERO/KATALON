@@ -1,0 +1,271 @@
+{
+  "id": "73648b4f-2152-40b7-9676-fd5d00e03523",
+  "version": "2.0",
+  "name": "SushiClub",
+  "url": "https://www.sushiclub.com.ar",
+  "tests": [{
+    "id": "87e6948a-1aa7-4c74-9a1c-465a263f3c71",
+    "name": "Beneficios ",
+    "commands": [{
+      "id": "9f511fda-0495-4d06-9ed7-3db62223bf7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40b77ff1-5fcc-4cb1-878a-87e4b06cb458",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x746",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e64685d-014a-4c42-a495-f67e35dd81c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1024f3f2-f003-4315-9c5d-e4cd79c8c45a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e32f1c-fa0d-4428-b2df-6531af66d332",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "316f0e37-db90-437a-a55b-447acc353ef1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(5) > a",
+      "targets": [
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temporada')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?temporada=1')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b543dc-ccc3-47c4-8ffc-68e11a2f36ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Temporada",
+      "targets": [
+        ["linkText=Temporada", "linkText"],
+        ["css=.menuIzq > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temporada')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0addddac-530a-4ed4-8ded-0c55c91786a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MZA Las Leñas (invierno)",
+      "targets": [
+        ["linkText=MZA Las Leñas (invierno)", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'MZA Las Leñas (invierno)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=40')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MZA Las Leñas (invierno)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "419bf8a9-0bbe-4f6d-ad31-7c5e9aacba22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Las Leñas - UFO Point (Invierno)",
+      "targets": [
+        ["linkText=Las Leñas - UFO Point (Invierno)", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Las Leñas - UFO Point (Invierno)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=104')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Las Leñas - UFO Point (Invierno)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8fa7dd-8f0a-4235-946d-11be7d7046a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2) .rounded_",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2) .rounded_", "css:finder"],
+        ["xpath=//div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d0b233-5df6-442e-87c7-70cb2985c30f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Todos los beneficios",
+      "targets": [
+        ["linkText=Todos los beneficios", "linkText"],
+        ["css=.breadcrumb a", "css:finder"],
+        ["xpath=//a[contains(text(),'Todos los beneficios')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'beneficios.php')])[11]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Todos los beneficios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5506cd5d-d6f9-4443-b5fc-b0a35662c37b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Temporada",
+      "targets": [
+        ["linkText=Temporada", "linkText"],
+        ["css=.menuIzq > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temporada')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1752275-d00a-4177-b736-801257d65463",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interior",
+      "targets": [
+        ["linkText=Interior", "linkText"],
+        ["css=.menuIzq > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Interior')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d1f34b-aedc-45f2-9cca-0c0d4c9cd9ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1)",
+      "targets": [
+        ["css=.open li:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/div/div/ul/li[3]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd4a38e7-f9c9-4c5a-ac70-8d4f0a5659ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bahía Blanca (Deli & Take)",
+      "targets": [
+        ["linkText=Bahía Blanca (Deli & Take)", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bahía Blanca (Deli & Take)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=75')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bahía Blanca (Deli & Take)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "797e5675-77ba-4c8f-9755-5c76b28567c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(5) > .row:nth-child(1) > .col-sm-4:nth-child(1) .rounded_",
+      "targets": [
+        ["css=.col-sm-12:nth-child(5) > .row:nth-child(1) > .col-sm-4:nth-child(1) .rounded_", "css:finder"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d2aa09-e22a-43bc-a63e-35b25bfd7ff8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Todos los beneficios",
+      "targets": [
+        ["linkText=Todos los beneficios", "linkText"],
+        ["css=.breadcrumb a", "css:finder"],
+        ["xpath=//a[contains(text(),'Todos los beneficios')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'beneficios.php')])[11]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Todos los beneficios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e446414d-2d50-45d7-94c4-4249c63b4082",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GBA",
+      "targets": [
+        ["linkText=GBA", "linkText"],
+        ["css=.menuIzq > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'GBA')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2a210e-d640-4ae7-a418-4df106892faa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Campana (Deli & Take)",
+      "targets": [
+        ["linkText=Campana (Deli & Take)", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Campana (Deli & Take)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=86')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Campana (Deli & Take)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a6eded-8d77-4743-8ce9-489df49f1390",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2) h2",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2) h2", "css:finder"],
+        ["xpath=//div[2]/a/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Delivery Online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f65585c-e822-4baf-b901-5a67934d1ffb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.txt-descrip",
+      "targets": [
+        ["css=.txt-descrip", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Válido para Delivery')]", "xpath:innerText"]
+      ],
+      "value": "Válido para Delivery"
+    }]
+  }],
+  "suites": [{
+    "id": "b9122f2f-274f-4842-82b0-b168a8354ca1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["87e6948a-1aa7-4c74-9a1c-465a263f3c71"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}

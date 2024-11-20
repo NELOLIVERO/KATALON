@@ -1,0 +1,468 @@
+{
+  "id": "f351e5ac-3618-4e54-b1f5-f5e63f6c0c52",
+  "version": "2.0",
+  "name": "Act 26 - SushiClub Eventos & Catering",
+  "url": "https://www.sushiclub.com.ar/",
+  "tests": [{
+    "id": "8b01d6cc-282b-4c9e-9600-e436cdffdf1d",
+    "name": "Prueba1",
+    "commands": [{
+      "id": "baaa0308-f8b1-48d5-b663-c1b4f3e67d4c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d3d06ba-6be2-4e82-9685-e4e69e935d3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1293x684",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8269b415-7272-4c32-98a0-40986c592a2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7c1371-5ab8-416a-8ed1-f3842a012e3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > li:nth-child(10) > a",
+      "targets": [
+        ["css=#menuMobile > li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'eventos & catering')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'eventos_catering.php')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6020927-80c8-4e6c-8bf8-848b756a913a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uniNegocios > .row",
+      "targets": [
+        ["css=.uniNegocios > .row", "css:finder"],
+        ["xpath=//body/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d35bbf79-8365-4c65-a043-f0900b504442",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2) h2",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2) h2", "css:finder"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Nuestra Propuesta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c519d6cc-cea0-40eb-a071-4b5ed5c1c4d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2) > .promo",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2) > .promo", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22de3929-aa04-41a5-9b89-be55a7063104",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2)",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101dd12f-c2fe-44ca-a6e9-087b96f2a383",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(3) > .promo",
+      "targets": [
+        ["css=.col-sm-4:nth-child(3) > .promo", "css:finder"],
+        ["xpath=//div[3]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c96760ef-8440-4640-af4b-104382532522",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(3) p",
+      "targets": [
+        ["css=.col-sm-4:nth-child(3) p", "css:finder"],
+        ["xpath=//div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'SushiClub dispone de un equipo de trabajo y una estructura adaptable a cualquier tipo de eventos y cuenta con experiencia comprobable en eventos privados, corporativos, recitales o eventos deportivos, fiestas electrónicas y festivales de gran escala.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd1c3a58-7ba5-4fb4-9508-eb4f4d01ee34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Consultas/Presupuestos",
+      "targets": [
+        ["linkText=Consultas/Presupuestos", "linkText"],
+        ["css=.btn-dorado", "css:finder"],
+        ["xpath=//a[contains(text(),'Consultas/Presupuestos')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'contacto.php?tipo=presupuesto')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Consultas/Presupuestos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "946574e7-2622-4698-b792-27cedd08b74e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@name='nombre'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a9c0b6f-1fdb-4f16-a6e8-e51c1df7ec5a",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@name='nombre'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "jhon"
+    }, {
+      "id": "19ed4e48-ed61-4249-b841-4733a8382c95",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(3) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=(//input[@name='apellido'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b9f3b8d-f4ae-4d84-a41a-0b42e7237564",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(3) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=(//input[@name='apellido'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "quintero"
+    }, {
+      "id": "699fc72f-a620-4f48-ae01-0ae154bca383",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(4) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e0ec14a-cb4f-474d-8fd7-411d2e4f9956",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(4) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "jjquintero123@gmail.com"
+    }, {
+      "id": "e70d622a-a54b-41b2-b360-7e92a91c4189",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(5) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=(//input[@name='telefono'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "274df3a3-edf5-4f09-943c-957872931a3b",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(5) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=(//input[@name='telefono'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "3203333333"
+    }, {
+      "id": "ec193b30-9df8-4c01-9d94-c3f1b3141fb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(6) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=(//input[@name='empresa'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e56a9d88-d611-49a8-a181-2f73f14e4c89",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(6) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=(//input[@name='empresa'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[5]/div/input", "xpath:position"]
+      ],
+      "value": "jj eventos"
+    }, {
+      "id": "2a800210-927b-4f12-8006-f8c319d82829",
+      "comment": "",
+      "command": "click",
+      "target": "name=evento",
+      "targets": [
+        ["name=evento", "name"],
+        ["css=#presupuesto .form-group:nth-child(7) .form-control", "css:finder"],
+        ["xpath=//input[@name='evento']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5232376-04f2-4b90-85c4-3903c59108c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=evento",
+      "targets": [
+        ["name=evento", "name"],
+        ["css=#presupuesto .form-group:nth-child(7) .form-control", "css:finder"],
+        ["xpath=//input[@name='evento']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[6]/div/input", "xpath:position"]
+      ],
+      "value": "cumpleaños"
+    }, {
+      "id": "fe4f4bf1-a73d-4618-888e-76c451840aa6",
+      "comment": "",
+      "command": "click",
+      "target": "name=fecha_evento",
+      "targets": [
+        ["name=fecha_evento", "name"],
+        ["css=#presupuesto .form-group:nth-child(8) .form-control", "css:finder"],
+        ["xpath=//input[@name='fecha_evento']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "694c5184-a2b3-4d04-9997-da93ae032d40",
+      "comment": "",
+      "command": "type",
+      "target": "name=fecha_evento",
+      "targets": [
+        ["name=fecha_evento", "name"],
+        ["css=#presupuesto .form-group:nth-child(8) .form-control", "css:finder"],
+        ["xpath=//input[@name='fecha_evento']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[7]/div/input", "xpath:position"]
+      ],
+      "value": "30 de octubre 2024"
+    }, {
+      "id": "6ebe19ea-2f21-469a-a18d-9cd399dcdb21",
+      "comment": "",
+      "command": "click",
+      "target": "name=horario",
+      "targets": [
+        ["name=horario", "name"],
+        ["css=#presupuesto .form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//input[@name='horario']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "055406d1-504c-4482-be17-2ce5b37a1950",
+      "comment": "",
+      "command": "type",
+      "target": "name=horario",
+      "targets": [
+        ["name=horario", "name"],
+        ["css=#presupuesto .form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//input[@name='horario']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[8]/div/input", "xpath:position"]
+      ],
+      "value": "5 pm"
+    }, {
+      "id": "26d70752-1eb6-4359-b0d0-4f09d91d2f0c",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=#presupuesto .form-group:nth-child(10) .form-control", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "439fb9fe-a56e-48c4-b46b-0797c2a9de5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=#presupuesto .form-group:nth-child(10) .form-control", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[9]/div/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "a5b8266a-0fc5-420e-9742-63d5329cbd48",
+      "comment": "",
+      "command": "click",
+      "target": "name=lugar",
+      "targets": [
+        ["name=lugar", "name"],
+        ["css=#presupuesto .form-group:nth-child(11) .form-control", "css:finder"],
+        ["xpath=//input[@name='lugar']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f377c60-d016-4137-8b30-6d52bcd6ae56",
+      "comment": "",
+      "command": "type",
+      "target": "name=lugar",
+      "targets": [
+        ["name=lugar", "name"],
+        ["css=#presupuesto .form-group:nth-child(11) .form-control", "css:finder"],
+        ["xpath=//input[@name='lugar']", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div[10]/div/input", "xpath:position"]
+      ],
+      "value": "catedral buenos aires"
+    }, {
+      "id": "0e18a6d6-6169-4bcc-b1b7-5df3052da986",
+      "comment": "",
+      "command": "click",
+      "target": "css=#presupuesto .form-group:nth-child(12) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(12) .form-control", "css:finder"],
+        ["xpath=(//textarea[@name='mensaje'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[11]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[11]/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c563bb6a-a678-4623-999e-63408c31d0a8",
+      "comment": "",
+      "command": "type",
+      "target": "css=#presupuesto .form-group:nth-child(12) .form-control",
+      "targets": [
+        ["css=#presupuesto .form-group:nth-child(12) .form-control", "css:finder"],
+        ["xpath=(//textarea[@name='mensaje'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[11]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[11]/div/textarea", "xpath:position"]
+      ],
+      "value": "cumpleaños de santiago"
+    }, {
+      "id": "c741eeb3-fa8b-4a8e-9095-fdd80eeec8c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.firstRow",
+      "targets": [
+        ["css=.firstRow", "css:finder"],
+        ["xpath=//body/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e63762c-d3cc-4387-a06d-977b540874be",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c08ab7f-caa3-40e4-9062-fde7c4d942c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bbaa454-e7f5-4209-891b-b727e75bb0e6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d6559b5-c231-492c-8d63-7e66fb8f6b64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(15) .btn",
+      "targets": [
+        ["css=.form-group:nth-child(15) .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='presupuesto']/form/div[14]/div/button", "xpath:idRelative"],
+        ["xpath=//div[14]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3540a6f-6031-4573-963a-c516bb8f3608",
+      "comment": "",
+      "command": "click",
+      "target": "id=motivo",
+      "targets": [
+        ["id=motivo", "id"],
+        ["css=#motivo", "css:finder"],
+        ["xpath=//select[@id='motivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bd3c2147-bb3d-4b6c-926f-ac580dbd3cd1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8b01d6cc-282b-4c9e-9600-e436cdffdf1d"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/"],
+  "plugins": []
+}
